@@ -1,88 +1,87 @@
-**Bebek Bakma Oyunu (Console Game)**
+# 👶 Bebek Bakma Oyunu (Console Game)
 
-Bu proje, C dili kullanılarak geliştirilmiş bir konsol tabanlı bebek bakma oyunudur.
-Oyunun amacı, seçilen bebeğin ihtiyaçlarını doğru şekilde karşılayarak mutluluğunu ve sağlığını korumaktır.
+Bu proje, **C dili** kullanılarak geliştirilmiş bir **konsol tabanlı bebek bakma simülasyon oyunudur**.  
+Oyunun temel amacı, seçilen bebeğin ihtiyaçlarını doğru şekilde karşılayarak **sağlığını ve mutluluğunu korumaktır**.
 
-Oyun hem .c kaynak kodu hem de .exe çalıştırılabilir dosya olarak mevcuttur ve hâlâ oynanabilir durumdadır.
+Oyun hem **.c kaynak kodu** hem de **.exe çalıştırılabilir dosya** olarak mevcuttur ve günümüzde hâlâ oynanabilir durumdadır.
 
-**Oyun Mekaniği**
+---
 
-Oyunda bir bebeğin aşağıdaki özellikleri takip edilir:
+## 🎮 Oyun Mekaniği
 
-Sağlık
+Oyunda bir bebeğin aşağıdaki ihtiyaç ve gelişim değerleri takip edilir:
 
-Tokluk
+- 🩺 **Sağlık**
+- 🍽 **Tokluk**
+- 💧 **Su**
+- 💤 **Uyku**
+- 🧼 **Hijyen**
+- 🚽 **Tuvalet ihtiyacı**
+- ❤️ **Sevgi**
+- 🧑‍🤝‍🧑 **Sosyallik**
+- 📚 **Eğitim**
+- 🎉 **Eğlence**
+- 😊 **Mutluluk**
 
-Su
+Her özellik belirli bir **seviye değeri**ne sahiptir.  
+Yanlış veya eksik bakımlar bebeğin mutluluğunu ve sağlığını olumsuz etkiler.
 
-Uyku
+Bebeğin sağlık durumunu etkilemeyecek **uyumlu koşullar sağlandığında**, bebeğin yaşı artar ve bu sayede **seviye ilerlemesi** gerçekleşir.
 
-Hijyen
+---
 
-Tuvalet ihtiyacı
+## 🕹 Oynanış
 
-Sevgi
+Oyuncu, her turda ekranda gösterilen menüden bir aksiyon seçer:
 
-Sosyallik
+- 🍽 Yemek yedirme  
+- 💧 Su içirme  
+- 💤 Uyutma  
+- 🚽 Tuvalet ihtiyacını giderme  
+- ❤️ Sevgi gösterme  
+- 🧑‍🤝‍🧑 Sosyalleştirme  
+- 📚 Bir şeyler öğretme  
+- 🎉 Eğlendirme  
+- 🧼 Hijyen ihtiyacını giderme  
+- 💊 Sağlık takviyesi yapma  
 
-Eğitim
+Oyundan çıkmak için **`-1`** tuşuna basılması yeterlidir.
 
-Eğlence
+---
 
-Mutluluk
+## 🧑‍💻 Teknik Bilgiler
 
-Her özellik belirli bir seviye değerine sahiptir. Yanlış veya eksik bakımlar bebeğin mutluluğunu ve sağlığını olumsuz etkileyebilir.
-Bebeğin sağlık durumunu etkilemeyecek uyumlu durumlarda ise bebeğin yaşı artabilmekte bu sayede seviye ilerlemesi olabilmektedir.
+- **Programlama Dili:** C  
+- **Oyun Türü:** Konsol / Simülasyon  
+- **Platform:** Windows  
+- **Arayüz:** Komut Satırı (Console)
 
-**Oynanış**
+---
 
-Oyuncu, her turda ekranda gösterilen menüden bir seçim yapar:
+## 📁 Dosya Yapısı
 
-Yemek yedirme
+- **`.c`** → Oyunun kaynak kodu  
+- **`.exe`** → Derlenmiş, çalıştırılabilir oyun dosyası  
 
-Su içirme
+---
 
-Uyutma
+## 📝 Not
 
-Tuvalet ihtiyacını giderme
+Bu proje;  
+**C dilinde temel programlama kavramlarını**,  
+- koşullar  
+- döngüler  
+- kullanıcı girdileri  
+- menü tabanlı etkileşim  
 
-Sevgi gösterme
+üzerinden uygulamalı olarak göstermek amacıyla geliştirilmiştir.
 
-Sosyalleştirme
+---
 
-Bir şeyler öğretme
-
-Eğlendirme
-
-Hijyen ihtiyacını giderme
-
-Sağlık takviyesi yapma
-
-Oyundan çıkmak için -1 tuşuna basılır.
-
-Teknik Bilgiler
-
-Programlama Dili: C
-
-Oyun Türü: Konsol / Simülasyon
-
-Platform: Windows
-
-Arayüz: Komut satırı (Console)
-
-Dosyalar
-
-.c → Oyunun kaynak kodu
-
-.exe → Derlenmiş, çalıştırılabilir oyun dosyası
-
-**NOT**
-
-Bu proje, C dilinde temel programlama mantığını, koşulları, döngüleri ve kullanıcı etkileşimini göstermek amacıyla geliştirilmiştir.
-
-**GELİŞTİRİCİ**
+## 👨‍💻 Geliştirici
 
 NURGÜL SARITAŞ
 
 
-Bu proje, C dilinde temel programlama mantığını, koşulları, döngüleri ve kullanıcı etkileşimini göstermek amacıyla geliştirilmiştir
+
+Bu proje, C dili kullanılarak bireysel bir çalışma olarak geliştirilmiştir.
