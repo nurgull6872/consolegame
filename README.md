@@ -76,14 +76,13 @@ Dosyalar
 
 .exe → Derlenmiş, çalıştırılabilir oyun dosyası
 
-**NOT??
+**NOT**
 
-Bu proje, C dilinde temel programlama mantığını, koşulları, döngüleri ve kullanıcı etkileşimini göstermek amacıyla geliştirilmiştir
+Bu proje, C dilinde temel programlama mantığını, koşulları, döngüleri ve kullanıcı etkileşimini göstermek amacıyla geliştirilmiştir.
 
-** GELİŞTİRİCİ **
+**GELİŞTİRİCİ**
 
 NURGÜL SARITAŞ
 
-📝 Not
 
 Bu proje, C dilinde temel programlama mantığını, koşulları, döngüleri ve kullanıcı etkileşimini göstermek amacıyla geliştirilmiştir
